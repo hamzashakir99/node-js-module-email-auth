@@ -1,0 +1,35 @@
+{
+  "name": "neesilo",
+  "version": "1.0.0",
+  "description": "***For Local Run***\r npm run start:local\r ***For Dev Run***\r npm run start:dev\r ***For Prod Run***\r npm run start:prod",
+  "main": "bootstrap.js",
+  "scripts": {
+    "start": "node ./bootstrap.js",
+    "start:local": "set NODE_ENV=local&& nodemon ./bootstrap.js",
+    "start:dev": "set NODE_ENV=dev&& nodemon ./bootstrap.js",
+    "start:prod": "set NODE_ENV=prod&& nodemon ./bootstrap.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "firebase-admin": "^11.0.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.1",
+    "morgan": "^1.10.0",
+    "node-schedule": "^2.1.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "randomstring": "^1.2.2",
+    "socket.io": "^4.5.2",
+    "validator": "^13.7.0"
+  }
+}
